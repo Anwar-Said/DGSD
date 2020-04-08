@@ -6,11 +6,11 @@ Networkx
 grakel
 sklearn
 
-The code automatically download datasets from Grakel website therefore the system must be connected with internet. For downloding the dataset,follow this link: https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets
+The code automatically download datasets from Grakel website therefore the system must be connected with internet. For downloding the datasets manually,follow this link: https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets
 
 run the code 
 
-python DGSD-main.py
+python python-DGSD_main.py
 
 
 
