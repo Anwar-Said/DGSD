@@ -5,3 +5,6 @@ run the code with the following commands
 compilation: mpicc -o dgsd -g dgsd_main.c -I/usr/local/igraph -L/usr/local/lib -ligraph
 
 execution: mpirun -np 10 ./dgsd   # 10 is the number of processes which can be choosen according to the environment.
+
+
+write_neigh.c code can be used to write neighbors in the desired format
