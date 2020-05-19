@@ -1,4 +1,4 @@
-paper title: DGSD: Distributed Graph Representation via Graph Statistical Properties
+paper title: DGSD: Distributed Graph Representation via Graph Statistical Properties - the paper is currently under review in FGCS <br />
 
 The following libararies should be installed to run the code
 
