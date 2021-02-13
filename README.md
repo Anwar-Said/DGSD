@@ -13,5 +13,5 @@ run the code
 
 python python-DGSD_main.py
 
-
+The implementation in C language is also provided that can be run in distributed envrironment on very large graphs. 
 
