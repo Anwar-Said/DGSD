@@ -14,8 +14,8 @@ Quick start
     import networkx as nx
 	
 
-    g = nx.erdos_renyi_graph(10, 0.7) # create a random graph with 10 nodes
-    descriptor = dgsd.get_descriptor(g) # compute the descriptor
+    g = nx.erdos_renyi_graph(100, 0.2) # create a random graph with 100 nodes
+    descriptor = dgsd.DGSD().get_descriptor(g) # compute the descriptor
 
 That's it! 
 
