@@ -22,7 +22,6 @@ setup(
     license='MIT',
     install_requires=[
         'numpy',
-        'multiprocessing',
         'networkx==2.5'
     ],
     classifiers=[
