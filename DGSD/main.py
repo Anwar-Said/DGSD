@@ -10,7 +10,7 @@ import sys
 class DGSD_class:
     def __init__(self):
         self.graph = None
-    def DGSD(self, graph, bins, workers,p):
+    def get_descriptor(self, graph, bins, workers,p):
         self.graph = nx.convert_node_labels_to_integers(graph)
         nodes = list(self.graph.nodes())
         if workers<len(nodes):
