@@ -10,7 +10,7 @@ except ImportError:
     from distutils.core import setup
 
 setup(
-    name='dgsd',
+    name='DGSD',
     version='v1.0.1',
     author='Anwar Said',
     author_email='anwar.said@itu.edu.pk',
