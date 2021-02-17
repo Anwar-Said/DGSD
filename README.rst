@@ -10,7 +10,7 @@ Quick start
 .. code-block:: python
 
     import dgsd
-	import multiprocessing
+    import multiprocessing
     import networkx as nx
 	
 
