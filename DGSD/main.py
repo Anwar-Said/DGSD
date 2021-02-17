@@ -7,10 +7,11 @@ import csv
 import math
 import sys
 
-class DGSD_class:
+class DGSD:
     def __init__(self):
         self.graph = None
-    def get_descriptor(self, graph, bins, workers,p):
+    def get_descriptor(self, graph, bins = 50, workers=1):
+        p = mp.Pool(workers)
         self.graph = nx.convert_node_labels_to_integers(graph)
         nodes = list(self.graph.nodes())
         if workers<len(nodes):
