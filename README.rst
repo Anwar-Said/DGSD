@@ -19,14 +19,13 @@ Quick start
 
 That's it! 
 
-For more advanced usage, check out `online documentation <http://dgsd.readthedocs.org/>`_.
 
 
 Requirements
 ------------
 * numpy
 * networkx
-*multiprocessing
+* multiprocessing
 
 
 
