@@ -31,11 +31,8 @@ Requirements
 
 Installation
 ------------
-#. cd dgsd
-#. pip install -r requirements.txt 
-#. python setup.py install
 
-Or simply ``pip install dgsd``
+Or simply ``pip install DGSD==1.0.4``
 
 Citing
 ------
