@@ -11,14 +11,14 @@ except ImportError:
 
 setup(
     name='DGSD',
-    version='v1.0.2',
+    version='v1.0.3',
     author='Anwar Said',
     author_email='anwar.said@itu.edu.pk',
     description='DGSD: Distributed Graph Representation via Graph Statistical Properties!',
     long_description='long_description',
     packages=['dgsd',],
     url='https://github.com/Anwar-Said/DGSD',
-    download_url = 'https://github.com/Anwar-Said/DGSD/archive/v1.0.2.tar.gz',
+    download_url = 'https://github.com/Anwar-Said/DGSD/archive/v1.0.3.tar.gz',
     license='MIT',
     install_requires=[
         'numpy',
