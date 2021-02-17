@@ -15,7 +15,7 @@ Quick start
 	
 
     g = nx.erdos_renyi_graph(100, 0.2) # create a random graph with 100 nodes
-    descriptor = dgsd.DGSD().get_descriptor(g) # compute the descriptor
+    descriptor = dgsd.DGSD().get_descriptor(g,bins = 50, workers = 1) # compute the descriptor with given number of worker machine
 
 That's it! 
 
