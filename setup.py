@@ -29,8 +29,8 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.7',
-        'Topic :: Scientific/Engineering :: Graph Theory',
-        'Topic :: Scientific/Engineering :: Graph Representation',
+        'Topic :: Scientific/Engineering :: Mathematics',
+        'Topic :: Scientific/Engineering :: Artificial Intelligence',
     ],
     long_description=open('README.rst').read(),
 )
