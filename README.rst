@@ -32,7 +32,7 @@ Requirements
 Installation
 ------------
 
-simply ``pip install DGSD==1.0.4``
+simply ``pip install DGSD``
 
 Citing
 ------
