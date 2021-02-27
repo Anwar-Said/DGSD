@@ -1,5 +1,5 @@
 ===============================
-DGSD
+DGSD (Distributed Graph Statistical Distances)
 ===============================
 
 DGSD is a statistical graph descriptor that computes a feature vector from graph which can be used for many downstream machine learning tasks. 
@@ -34,10 +34,9 @@ Installation
 
 simply ``pip install DGSD==1.0.4``
 
-Citing -
+Citing
 ------
-.. role:: raw-html(raw)
-    :format: html
+
 Please cite DGSD with below citation if you find it useful in your research. 
 
 @article{said2021dgsd, 
@@ -47,3 +46,5 @@ Please cite DGSD with below citation if you find it useful in your research.
   year={2021},
   publisher={Elsevier}
 }
+
+Link to the paper: https://www.sciencedirect.com/science/article/abs/pii/S0167739X21000571
