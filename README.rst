@@ -36,6 +36,8 @@ simply ``pip install DGSD==1.0.4``
 
 Citing -
 ------
+.. role:: raw-html(raw)
+    :format: html
 Please cite DGSD with below citation if you find it useful in your research. <br />
 
 @article{said2021dgsd, <br />
