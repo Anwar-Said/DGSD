@@ -36,7 +36,8 @@ simply ``pip install DGSD==1.0.4``
 
 Citing -
 ------
-Please cite DGSD with below citation if you find it useful in your research. 
+Please cite DGSD with below citation if you find it useful in your research. <br />
+
 @article{said2021dgsd, <br />
   title={DGSD: Distributed graph representation via graph statistical properties},<br />
   author={Said, Anwar and Hassan, Saeed-Ul and Tuarob, Suppawong and Nawaz, Raheel and Shabbir, Mudassir},<br />
