@@ -21,6 +21,8 @@ class DGSD:
             batches = np.array_split(nodes, workers)
         emb = p.starmap(self.Generate_Embeddings, zip(batches, repeat(bins)))
         embeddings = np.sum(np.array(emb),axis = 0)
+        p.close()
+        p.join()
         return embeddings
 
     def Generate_Embeddings(self, batch, nbins):
