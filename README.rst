@@ -8,13 +8,13 @@ Quick start
 -----------
 
 
-```python
-import dgsd
-import multiprocessing
-import networkx as nx
+.. code-block:: python
+	import dgsd
+	import multiprocessing
+	import networkx as nx
 
-g = nx.erdos_renyi_graph(100, 0.2) # create a random graph with 100 nodes
-descriptor = dgsd.DGSD().get_descriptor(g,bins = 50, workers = 1) # compute the descriptor with given number of worker machines. Number of workers can be increased for fast and parallel processing
+	g = nx.erdos_renyi_graph(100, 0.2)
+	descriptor = dgsd.DGSD().get_descriptor(g,bins = 50, workers = 1) 
 
 
 That's it! 
@@ -23,7 +23,7 @@ That's it!
 
 Requirements
 ------------
-```python
+
 * numpy
 * networkx
 * multiprocessing
@@ -40,7 +40,9 @@ Citing
 
 Please cite DGSD if you use this code in your own work:
 
-```bibtex
+
+
+
 @article{said2021dgsd, 
 
 	title={DGSD: Distributed graph representation via graph statistical properties},
