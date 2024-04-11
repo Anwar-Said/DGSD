@@ -9,6 +9,9 @@ Quick start
 
 
 .. code-block:: python
+	
+	pip install dgsd
+
 	import dgsd
 	import multiprocessing
 	import networkx as nx
