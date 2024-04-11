@@ -10,7 +10,7 @@ Quick start
 
 .. code-block:: python
 	
-	pip install dgsd
+	pip install DGSD
 
 	import dgsd
 	import multiprocessing
